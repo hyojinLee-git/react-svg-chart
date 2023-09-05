@@ -6,8 +6,8 @@ function App() {
     return (
         <Routes>
             <Route path="/" />
-            <Route path="svg-line" element={<LineChart />} />
-            <Route path="svg-doughnut" />
+            <Route path="line-chart" element={<LineChart />} />
+            <Route path="doughnut-chart" />
         </Routes>
     );
 }
